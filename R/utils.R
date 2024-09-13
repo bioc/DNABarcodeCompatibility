@@ -5,7 +5,7 @@ library("tidyr")
 library("numbers")
 library("purrr")
 library ("stringr")
-library("DNABarcodes")
+
 
 
 # initialize variable for CRAN/Bioc repository compatibility

@@ -13,10 +13,12 @@ License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Imports: dplyr, tidyr, numbers, purrr, stringr, DNABarcodes, stats, utils, methods
+Imports: dplyr, tidyr, numbers, purrr, stringr, stats, utils, methods, Rcpp (>= 0.11.2), BH
+LinkingTo: Rcpp, BH
 Depends: R (>= 3.6.0)
 Suggests: knitr, rmarkdown, BiocStyle, testthat
 VignetteBuilder: knitr
 biocViews: Preprocessing, Sequencing
 BugReports: https://github.com/comoto-pasteur-fr/DNABarcodeCompatibility/issues
 PackageStatus: Deprecated
+NeedsCompilation: yes
