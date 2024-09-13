@@ -44,6 +44,7 @@
 #' @export
 #' 
 
+
 distance_filter = function(index_df, combinations_m, metric, d) {
     check_input_dataframe(  index_df, 
                             c("Id", "sequence", "GC_content", "homopolymer"))
