@@ -33,25 +33,23 @@ BiocManager::install("DNABarcodeCompatibility")
 Documentation
 ================
 
-[Introduction](https://comoto-pasteur-fr.github.io/DNABarcodeCompatibility/)
+[Introduction](https://www.bioconductor.org/packages/release/bioc/vignettes/DNABarcodeCompatibility/inst/doc/introduction.html)
 
-[API documentation](https://comoto-pasteur-fr.github.io/DNABarcodeCompatibility/DNABarcodeCompatibility-manual.pdf)
+[API documentation](https://www.bioconductor.org/packages/release/bioc/manuals/DNABarcodeCompatibility/man/DNABarcodeCompatibility.pdf)
 
 
 * Related tools:
 
-In addition, DNABarcodeCompatibility can be used from a graphical user interface. We now provide two different interfaces:
+In addition, DNABarcodeCompatibility can be used from a graphical user interface :
 
-1) [Standalone Java-based graphical user interface](https://github.com/comoto-pasteur-fr/DNABarcodeCompatibility_GUI). In such a case, additional dependencies must be installed: [Java (JDK 8 - 64 bits)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and `rJava` R-package (`install.packages("rJava")`).
-
-2) [Shiny web-based graphical user interface](https://github.com/comoto-pasteur-fr/DNABarcodeCompatibility_Shiny). This interface can be run locally within a web browser or deployed on a web server.
+[Shiny web-based graphical user interface](https://gitlab.pasteur.fr/ida-public/dnabarcodecompatibility_shiny). This interface can be run locally within a web browser or deployed on a web server.
 
 
 
 Support
 =========
 
-Please use the [github ticket system](https://github.com/comoto-pasteur-fr/DNABarcodeCompatibility/issues) to report issues or suggestions. 
+Please use the [gitlab ticket system](https://gitlab.pasteur.fr/ida-public/dnabarcodecompatibility/-/issues) to report issues or suggestions. 
 We also welcome pull requests.
 
 
