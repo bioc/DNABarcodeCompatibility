@@ -19,6 +19,7 @@ Depends: R (>= 3.6.0)
 Suggests: knitr, rmarkdown, BiocStyle, testthat
 VignetteBuilder: knitr
 biocViews: Preprocessing, Sequencing
-BugReports: https://github.com/comoto-pasteur-fr/DNABarcodeCompatibility/issues
+URL: https://dnabarcodecompatibility.pasteur.fr/
+BugReports: https://gitlab.pasteur.fr/ida-public/dnabarcodecompatibility/-/issues
 PackageStatus: Deprecated
 NeedsCompilation: yes
